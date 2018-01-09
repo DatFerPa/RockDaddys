@@ -2,7 +2,7 @@
     "project_type": "javascript",
 
     "debugMode" : 1,
-    "showFPS" : true,
+    "showFPS" : false,
     "frameRate" : 60,
     "id" : "gameCanvas",
     "renderMode" : 0,
@@ -14,6 +14,10 @@
         "src/resource.js",
         "src/aventuraGrafica/AventuraGrafica.js",
         "src/aventuraGrafica/ColeccionableAventuraGrafica.js",
-        "src/aventuraGrafica/JugadorAventuraGrafica.js"
+        "src/aventuraGrafica/JugadorAventuraGrafica.js",
+        "src/dialogos/MenuSeleccionDaddy.js",
+        "src/dialogos/Micky_bar.js",
+        "src/dialogos/Micky_stage2.js",
+        "src/app.js"
     ]
 }

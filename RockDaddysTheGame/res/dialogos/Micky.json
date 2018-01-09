@@ -1,0 +1,100 @@
+{
+   "titulo": "Micky Morritos",
+   "dialogo" :{
+       "frases" : [
+           {
+             "personaje": true,
+             "estado" : 1,
+             "content": ["¿Hola, estás sólo?"],
+             "options": []
+           },
+           {
+               "personaje": false,
+               "estado" : 1,
+               "content": ["Sí, ¿quién lo pregunta?"],
+               "options": ["Ser muy borde", "Responder amablemente"],
+               "karma" : [-1,1]
+           },
+           {
+             "personaje": true,
+             "estado" : 1,
+             "content": ["Yo soy, Don Julian de Todos los Santos Chalar Domínguez, y ¿tú quién te crees que eres para hablarme así?"
+             ,"Me llamo Julian ¿tú eres Micky Morritos?"],
+             "options": []
+           },
+           {
+             "personaje": false,
+             "estado" : 1,
+             "content": ["Bueno relaja figura, eres tú el que te has fijado en mi preciosa cara… Estás ante Micky Morritos, excantante de los Cantos Rodaos."
+             ,"En efecto, soy él, el Micky Morritos, excantante de los Cantos Rodaos."],
+             "options": []
+           },{
+             "personaje": false,
+             "estado" : 1,
+             "content": ["Y bueno, ¿qué querías? *DUDANDO* ¿O sólo eres otro fan más que quiere un autógrafo para venderlo en iBei?"],
+             "options": ["¿Pero quienes son los Pedrolos Giratorios?","Soy muy fan, pero no quiero un autografo, quiero hablar contigo"],
+             "karma" : [-5,3]
+
+           },{
+             "personaje": true,
+             "estado" : 1,
+             "content": ["No sé ni quiénes son los Pedrolos Giratorios esos la verdad…"
+                        ,"No, no, siempre he sido un gran fan de los Cantos Rodaos, siempre he querido conocerte…"],
+             "options": []
+
+           },{
+             "personaje": false,
+             "estado" : 1,
+             "content": ["Bueno pues vaya vida más triste, me dirás entonces que tampoco conoces a gente como Juan Monedas, Los Escarabajos, Aguas Turbias o a Los Reyes Felinos…"
+             ,"JAJAJA Está muy bien encontrar fans después de tantos años. Veo que tienes buen gusto. Ahora dime, ¿te gustan Juan Monedas, Los Escarabajos, Aguas Turbias o a Los Reyes Felinos?"],
+             "options": []
+           },{
+             "personaje": false,
+             "estado" : 1,
+             "content": ["¿Que opinas de esos grupos?"],
+             "options": ["Esos grupos son bazofia", "Adoro a esos grupos"],
+             "karma" : [-10,5]
+           },{
+             "personaje": true,
+             "estado" : 1,
+             "content": ["Pues no, eso son grupos de drogadictos, melenudos y punkis… Además, ¿esos nombres? Los Reyes Felinos dice… ¿Qué pasa?, ¿qué les gustan los gatitos?"
+                        ,"Sí, de hecho, mi grupo favorito son Los escarabajos, esos chicos de Majadahonda suenan muy bien"],
+             "options": []
+
+         },{
+           "personaje": false,
+           "estado" : 1,
+           "content": ["Drogadictos, melenudos y punkis… Bueno, creo que eres un poco cerrado de mente…Deberías experimentar…"
+           ,"Bueno, bueno, qué sorpresa, no me esperaba encontrar a alguien así en un tugurio como este… Veo que eres una persona bastante culta, y si quieres probar…"],
+           "options": []
+         },{
+           "personaje": false,
+           "estado" : 1,
+           "content": ["Cosas nuevas, podemos seguir la conversación en otro lugar más relajado…"],
+           "options": ["Ni de coña", "Vale"],
+           "karma" : [-1000,1]
+         },{
+           "personaje": true,
+           "estado" : 1,
+           "content": ["¿¿¿Pero tu estás loco???", "Me encantaría, la verdad, pero en otro sitio..."],
+           "options": []
+         },{
+           "personaje": false,
+           "estado" : 1,
+           "content": ["Vale, se el sitio perfecto, pero tienes que conducir tú, que me he dejado las gafas de ver en casa"],
+           "options": []
+         },{
+           "personaje": true,
+           "estado" : 1,
+           "content": ["Sin problema, soy un gran conductor… De los mejores me atrevería a decir"],
+           "options": []
+         },{
+           "personaje": true,
+           "estado" : 1,
+           "content": ["Jajaja, no lo dudo. Vamos pues."],
+           "options": []
+         }
+       ]
+   }
+}
+

@@ -54,7 +54,7 @@ var JugadorAventuraGrafica = cc.Class.extend({
         this.shapeObjetos.setSensor(true);
 
         gameLayer.space.addShape(this.shapeObjetos);
-
+        //forma ajustada para la colisión con los bordes del mapa
         this.shapeColisiones = new cp.BoxShape(this.body,
             this.sprite.getContentSize().width+10,
             this.sprite.getContentSize().height - 20 );

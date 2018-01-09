@@ -1,0 +1,89 @@
+{
+   "titulo": "Micky Morritos",
+   "dialogo" :{
+       "frases" : [
+           {
+             "personaje": true,
+             "estado" : 1,
+             "content": ["¿¿Un… geriátrico??"],
+             "options": []
+           },{
+           "personaje": false,
+           "estado" : 1,
+           "content": ["Claro, ¿dónde te crees que te iba a llevar? Aquí nos montamos unos guateques mis colegas Ron Maderas, Quique Ricardos, Carlos Watios y yo. Ya verás ya…"],
+           "options": []
+         },{
+           "personaje": false,
+           "estado" : 1,
+           "content": ["[Hacia otra persona] ¡Hola Rigoberto! ¿Qué tal el reuma? [voces de fondo] Me alegro me alegro, sigue así y dentro de nada vuelvo a machacarte a la petanca. [A ti] Sí, aunque no te lo creas soy bastante bueno a la petanca, mis manitas son oro… Aunque bueno, eso ya lo verás más tarde."],
+           "options": []
+         },{
+           "personaje": true,
+           "estado" : 1,
+           "content": ["Esto… ¿qué?"],
+           "options": []
+         },{
+           "personaje": false,
+           "estado" : 1,
+           "content": ["JAJAJAJA era broma colega, estás muy tenso tío… Mira, para que te relajes, vamos a bailar un poco (empieza a sonar algo de Panorama y se cae)"],
+           "options": []
+         },{
+           "personaje": true,
+           "estado" : 1,
+           "content": ["¿¡MICKY!? ¿Estás bien?"],
+           "options": []
+         },{
+           "personaje": false,
+           "estado" : 2,
+           "content": ["Sí, sí… He resbalado… [MALA CARA] Ay mi espalda, por favor ayúdame y traeme mi tacataca y mis pastillas para la espalda… "],
+           "options": []
+         },{
+           "personaje": false,
+           "estado" : 1,
+           "content": ["Muchas gracias… La verdad que no sé lo que habría pasado si no llegas a estar aquí… Ya no estoy para estos trotes, me pasé mi juventud bailando en la calle y en serio, tengo la espalda… Pero estas pastillas son buenísimas, parecen azúcar moreno, pero son mano de santo… "],
+           "options": []
+         },{
+           "personaje": false,
+           "estado" : 1,
+           "content": ["[Ruidos de viejitas histéricas] OH NO, SON LAS FANS, NECESITO TU AYUDA."],
+           "options": []
+         },{
+           "personaje": true,
+           "estado" : 1,
+           "content": ["¿EH? ¿Cómo? ¿Qué pretendes que haga contra tantas señoras? Que vienen armadas con bastones y goteros, y además parecen muy nerviosas."],
+           "options": []
+         },{
+           "personaje": false,
+           "estado" : 3,
+           "content": ["Lo sé, son bastante pesadas, pero son las fans y tienen un punto débil: mis morritos, por algo me llaman así. Mis besos tienen el poder de calmar hasta la más fiera de las bestias, pero ya estoy algo mayor y necesito tu ayuda para que los lances contra ellas. Es sólo un ratito y será divertido, ya lo verás."],
+           "options": []
+         },{
+           "personaje": true,
+           "estado" : 1,
+           "content": ["Buf, ha sido duro, pero lo he conseguido… Qué cansancio. "],
+           "options": []
+         },{
+           "personaje": false,
+           "estado" : 1,
+           "content": ["Hm eres lo mejor. Me imagino lo cansado que estarás… Porque no vamos a mi habitación y uso mis besos mágicos para que te relajes… "],
+           "options": []
+         },{
+           "personaje": true,
+           "estado" : 1,
+           "content": ["Pensaba que nunca me lo ibas a pedir "],
+           "options": []
+
+         },{
+           "personaje": true,
+           "estado" : 1,
+           "content": ["HAS GANADO, HAS CONQUISTADO A MICKY MORRITOS, ¡¡ENHORABUENA!!"],
+           "options": []
+
+         }
+
+
+
+       ]
+   }
+}
+

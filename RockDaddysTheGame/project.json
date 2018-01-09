@@ -18,6 +18,21 @@
         "src/dialogos/MenuSeleccionDaddy.js",
         "src/dialogos/Micky_bar.js",
         "src/dialogos/Micky_stage2.js",
-        "src/app.js"
+        "src/app.js",
+        "src/recolectorMonedas/Cesta.js",
+        "src/recolectorMonedas/Droga.js",
+        "src/recolectorMonedas/Moneda.js",
+        "src/recolectorMonedas/Multa.js",
+        "src/recolectorMonedas/PuntuacionLayer.js",
+        "src/recolectorMonedas/RecolectorMonedas.js",
+        "src/GameOverLayer.js",
+        "src/WinLayer.js",
+        "src/restaurante/Camarero.js",
+        "src/restaurante/ControlesLayer.js",
+        "src/restaurante/GameSceneRestaurante.js",
+        "src/restaurante/Mesa.js",
+        "src/restaurante/UILayer.js"
+
+
     ]
 }

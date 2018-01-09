@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="32" tileheight="32" nextobjectid="117">
+ <tileset firstgid="1" name="cafe" tilewidth="32" tileheight="32" tilecount="120" columns="8">
+  <image source="cafe.png" width="256" height="480"/>
+ </tileset>
+ <tileset firstgid="121" name="cafewall" tilewidth="32" tileheight="32" tilecount="12" columns="3">
+  <image source="cafewall.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="133" name="clientes" tilewidth="32" tileheight="32" tilecount="40" columns="10">
+  <image source="clientes.png" width="320" height="128"/>
+ </tileset>
+ <tileset firstgid="173" name="pedido_icon" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="pedido_icon.png" width="32" height="32"/>
+ </tileset>
+ <layer name="PatronesFondo" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAPEARiISpjMSAWR7JDEoilqIzlgFgeyQ5GGmAmKB61Y9SOUTtG7Ri1Y9SOUTuGjx20BgA0uwYS
+  </data>
+ </layer>
+ <layer name="PatronesBorde" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJyrYWBgqKUhrgPiegbagsZRO0btGLVj1I5RO0btGLVj1I5BZEcTEDfTELcAMQAO3DAB
+  </data>
+ </layer>
+ <layer name="PatronesObjetos1" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA/0AViPSC2BWI7NLl4IE5H4uejyRdA6QQCdpgCsRkQuwKxGxCrk+NQEoE+HjllLGKGQGxERTu0sYhZArEVFe0YDgBfuGOLJ3IAvnDHFk8gEAnEUUAcTSU3YAOJQJwExMk0tINUgCvMyckfuACuMCcnfww1gCtdkZre8MUHrnRFanobCfExHEEOEHsBcR4N7SgB4lIgLqOhHUMRAAAUChHn
+  </data>
+ </layer>
+ <layer name="ClientesMesa1" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF9ABz6GDHMjrYMQpGwSgYBaNgFIyCwQEATToBQw==
+  </data>
+ </layer>
+ <layer name="ClientesMesa2" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAwV6gbiPxnZMB+IZNLZjFIyCUTAKRsEoGAX0BwCErgJL
+  </data>
+ </layer>
+ <layer name="ClientesMesa3" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BkgU4g7qKxHZOBeAqN7RgFo2AUjIJRMLIBAL4CAjs=
+  </data>
+ </layer>
+ <layer name="ClientesMesa4" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUwMBcOtixnA52jIJRMApGwSgY/gAARNABRQ==
+  </data>
+ </layer>
+ <layer name="ClientesMesa5" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKBA3PoYMcyOtgxCkbBKBgF9AYAY8YBQw==
+  </data>
+ </layer>
+ <layer name="ClientesMesa6" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjILBBzqBuIvGdkwG4ik0tmMUjIJRMApoBQANxQI7
+  </data>
+ </layer>
+ <layer name="ClientesMesa7" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMArwg24g7qGxHVOBeBqN7RgFo2A4AQCuCQJD
+  </data>
+ </layer>
+ <layer name="ClientesMesa8" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDBbQC8R9NLZjOhDPoLEdo2AUjIJRMApoDwDCmwJL
+  </data>
+ </layer>
+ <layer name="PatronesObjetos2" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFwwEoArESCeIw4A/EAWjYAYdaTSDWIkEcBsKBOAINe+BRPxwAufFBCiAnPnKAOBeI86jkBmygBIhLgbiMhnaQCgZrfAwXgCtdkZre8MUHrnRFanobCfExCkYOAAD1/Q/b
+  </data>
+ </layer>
+ <layer name="ClientesMesa9" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAoGP2gH4g4a2zERiCfR2I5RMAqoBQBV8gIz
+  </data>
+ </layer>
+ <layer name="ClientesMesa10" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAqGJmgF4jYa29EPxBNobMcoGAXkAAATqgIr
+  </data>
+ </layer>
+ <layer name="PatronesObjetos3" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgZwIkOdnjSwQ5cIBCHeAwQxxLQ6wjEXtR1zogH3njkfOjmCuwAV1qhFsgE4iwgzqahHYVAXATExUSq9wViPyzitA6LkQJwhS8x5Q8ywJdvcKUrUtNbChCn4pDDla5ITW+jYBTQCwAA8woOGQ==
+  </data>
+ </layer>
+ <layer name="PedidoMesa1" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4A4sHagHTAKRsEoGAWjYBSMAjgAACvHAK4=
+  </data>
+ </layer>
+ <layer name="PedidoMesa2" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4AysHagHTAKRsEoGAWjYBSMQAAAG48Arg==
+  </data>
+ </layer>
+ <layer name="PedidoMesa3" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDEWwdqAdMApGwSgYBaNgQAEAHWgArg==
+  </data>
+ </layer>
+ <layer name="PedidoMesa4" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDCewdqAdMApGwSgYBaOALgAADTAArg==
+  </data>
+ </layer>
+ <layer name="PedidoMesa5" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRQClYO9AOGAWjYBSMOAAADwkArg==
+  </data>
+ </layer>
+ <layer name="PedidoMesa6" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRQCuwdqAdMApGwSgYtgAA/sIArg==
+  </data>
+ </layer>
+ <layer name="PedidoMesa7" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGBlg70A4YBaOAigAA8GMArg==
+  </data>
+ </layer>
+ <layer name="PedidoMesa8" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjCSwdqAdMApGwSgYBaOAKgAA94EArg==
+  </data>
+ </layer>
+ <layer name="PedidoMesa9" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAooA2sH2gGjYBSMQAAAYfoArg==
+  </data>
+ </layer>
+ <layer name="PedidoMesa10" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApoA9YOtANGwSgYxgAAUcIArg==
+  </data>
+ </layer>
+ <objectgroup name="ZonaComida">
+  <object id="83" x="96" y="134" width="160" height="39"/>
+ </objectgroup>
+ <objectgroup name="ZonaMesa1">
+  <object id="98" x="434.5" y="95.5" width="95" height="105"/>
+ </objectgroup>
+ <objectgroup name="ZonaMesa2">
+  <object id="99" x="622.5" y="96.5" width="95" height="105"/>
+ </objectgroup>
+ <objectgroup name="ZonaMesa3">
+  <object id="100" x="433.5" y="218.5" width="95" height="105"/>
+ </objectgroup>
+ <objectgroup name="ZonaMesa4">
+  <object id="102" x="625.5" y="219.5" width="95" height="105"/>
+ </objectgroup>
+ <objectgroup name="ZonaMesa5">
+  <object id="103" x="431.5" y="349.5" width="95" height="105"/>
+ </objectgroup>
+ <objectgroup name="ZonaMesa6">
+  <object id="104" x="625.5" y="347.5" width="95" height="105"/>
+ </objectgroup>
+ <objectgroup name="ZonaMesa7">
+  <object id="105" x="625.5" y="476.5" width="95" height="105"/>
+ </objectgroup>
+ <objectgroup name="ZonaMesa8">
+  <object id="106" x="57.5" y="283.5" width="115" height="125"/>
+ </objectgroup>
+ <objectgroup name="ZonaMesa9">
+  <object id="107" x="57.5" y="476.5" width="115" height="125"/>
+ </objectgroup>
+ <objectgroup name="ZonaMesa10">
+  <object id="108" x="247.5" y="476.5" width="115" height="125"/>
+ </objectgroup>
+ <objectgroup name="Limites">
+  <object id="7" x="274" y="491">
+   <polyline points="0,0 0,33 -1,98 59,100 62,3 0,-1"/>
+  </object>
+  <object id="8" x="79" y="490">
+   <polyline points="0,0 2,101 66,101 66,2 2,-1"/>
+  </object>
+  <object id="9" x="82" y="297">
+   <polyline points="0,0 -1,99 63,102 63,2 1,0"/>
+  </object>
+  <object id="10" x="33" y="98">
+   <polyline points="0,0 735,-3 736,670 -2,671 -1,0"/>
+  </object>
+  <object id="36" x="179" y="686">
+   <polyline points="0,0 0,24 0,39 55,38 57,-5 3,-2"/>
+  </object>
+  <object id="40" x="98.5" y="177">
+   <polyline points="0,0 -0.5,23.5 2,30 2,35.5 181.5,36.5 185,20.5 185.5,-89.5 159.5,-89 159.5,-4.5 92,-3.5 87.5,-5 61,-4.5 52.5,-7 35.5,-6.5 34.5,-3 1,-1.5"/>
+  </object>
+  <object id="110" x="447.333" y="191.333">
+   <polyline points="0,0 37.3333,0 46.6667,-2 58,-7.33333 61.3333,-15.3333 62.6667,-27.3333 60.6667,-32 58,-42.6667 60,-47.3333 62.6667,-58 62.6667,-64 60.6667,-73.3333 60.6667,-80.6667 58.6667,-88.6667 46.6667,-91.3333 36,-84.6667 33.3333,-74 36.6667,-70 35.3333,-61.3333 34,-51.3333 22.6667,-50.6667 20,-58 12.6667,-58 11.3333,-44 6.66667,-38 -2,-29.3333 -0.666667,-0.666667"/>
+  </object>
+  <object id="111" x="664.667" y="103.333">
+   <polyline points="0,0 -6.66667,10 -8,23.3333 -7.33333,38 -19.3333,46.6667 -25.3333,56.6667 -25.3333,88 8.66667,88.6667 22.6667,86.6667 36.6667,78 36.6667,69.3333 36,56.6667 30,44.6667 20,38.6667 20.6667,20.6667 20,10.6667 14.6667,-1.33333 0,0"/>
+  </object>
+  <object id="112" x="475.333" y="229.333">
+   <polyline points="0,0 -7.33333,7.33333 -7.33333,24 -11.3333,40.6667 -22.6667,49.3333 -28.6667,60 -28.6667,90.6667 8.66667,90.6667 22.6667,86 31.3333,79.3333 34.6667,66.6667 30,54.6667 22,42.6667 15.3333,40.6667 17.3333,30 16.6667,19.3333 14.6667,8 10.6667,0.666667 0.666667,-0.666667"/>
+  </object>
+  <object id="113" x="686" y="229.333">
+   <polyline points="0,0 -9.33333,6.66667 -13.3333,16.6667 -12.6667,29.3333 -17.3333,36.6667 -32.6667,41.3333 -42,50 -47.3333,62 -49.3333,78.6667 -44,88.6667 -30,92 -9.33333,90.6667 6.66667,87.3333 16,76.6667 17.3333,64 14,50.6667 14,37.3333 14.6667,26 14.6667,16 10.6667,3.33333 2,-0.666667"/>
+  </object>
+  <object id="114" x="457.333" y="355.333">
+   <polyline points="0,0 -8.66667,7.33333 -6.66667,23.3333 -8.66667,38 -5.33333,50 -9.33333,62 -12,82 -8.66667,92 8.66667,93.3333 28.6667,93.3333 43.3333,89.3333 50.6667,77.3333 53.3333,64.6667 48,51.3333 32,42 18.6667,34.6667 20,20.6667 18.6667,10 13.3333,1.33333 1.33333,-0.666667"/>
+  </object>
+  <object id="115" x="666" y="358">
+   <polyline points="0,0 -8,14 -8,28 -13.3333,30.6667 -16.6667,39.3333 -20.6667,49.3333 -26.6667,58.6667 -27.3333,86 -18.6667,91.3333 2,91.3333 18,90 32.6667,83.3333 38.6667,66 32.6667,52.6667 23.3333,41.3333 16.6667,37.3333 18.6667,26 16.6667,11.3333 12,-0.666667 0.666667,-1.33333"/>
+  </object>
+  <object id="116" x="666.667" y="484">
+   <polyline points="0,0 -8.66667,6 -10,20 -10.6667,36 -16,45.3333 -26,56 -30.6667,70 -28,89.3333 -4,93.3333 18.6667,91.3333 30.6667,85.3333 36,76.6667 36.6667,60 28.6667,50.6667 20,40.6667 17.3333,30.6667 18.6667,22 17.3333,13.3333 18.6667,4 0.666667,-0.666667"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Personaje">
+  <object id="41" x="159.5" y="100.667" width="23" height="46"/>
+ </objectgroup>
+</map>

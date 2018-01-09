@@ -15,7 +15,13 @@ var res = {
     mapa_ricardo : "res/aventuraGrafica/mapa_ricardo.tmx",
     mapa_ricardo_png : "res/aventuraGrafica/mapa_ricardo_png.png",
     pastilla_png : "res/aventuraGrafica/pastilla.png",
-    tacataca_png : "res/aventuraGrafica/tacataca.png"
+    tacataca_png : "res/aventuraGrafica/tacataca.png",
+    escopeta_png : "res/aventuraGrafica/escopeta.png",
+    acondicionador_png : "res/aventuraGrafica/acondicionador.png",
+    calzoncillo_png : "res/aventuraGrafica/calzoncillo.png",
+    parchePirata_png : "res/aventuraGrafica/parchePirata.png",
+    anillo_png : "res/aventuraGrafica/anillo.png",
+    espatula_png : "res/aventuraGrafica/espatula.png"
 };
 
 var g_resources = [];

@@ -22,15 +22,15 @@
 </data>
  </layer>
  <objectgroup name="colisiones">
-  <object id="4" x="702" y="459">
-   <polyline points="0,0 -18,-55 -25,-111 -37,-138 -58,-176 -62,-188 -98,-188 -136,-178 -166,-174 -206,-175 -270,-182 -333,-180 -391,-182 -434,-185 -478,-188 -530,-174 -577,-169 -647,-153 -703,-147 -702,2 -2,-1"/>
+  <object id="4" x="702" y="426.347">
+   <polyline points="0,0 -18,-45.4474 -25,-91.7211 -37,-114.032 -58,-145.432 -62,-155.347 -98,-155.347 -136,-147.084 -166,-143.779 -206,-144.605 -270,-150.389 -333,-148.737 -391,-150.389 -434,-152.868 -478,-155.347 -530,-143.779 -577,-139.647 -647,-126.426 -703,-121.468 -702,1.65263 -2,-0.826316"/>
   </object>
  </objectgroup>
  <objectgroup name="coleccionable1">
-  <object id="6" x="17" y="333" width="63" height="50"/>
+  <object id="6" x="105" y="309" width="63" height="50"/>
  </objectgroup>
  <objectgroup name="coleccionable2">
-  <object id="5" x="574" y="337" width="59" height="50"/>
+  <object id="5" x="572" y="287" width="59" height="50"/>
  </objectgroup>
  <objectgroup name="jugador">
   <object id="7" x="310" y="347" width="68" height="54"/>

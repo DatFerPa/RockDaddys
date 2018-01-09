@@ -1,8 +1,13 @@
 var tipoColeccionable = 1;
 var tipoJugador = 2;
+var micky = 0;
+var kuzco = 1;
+var ricardo = 2;
+var bonifacio = 3;
 var AventuraGrafica = cc.Layer.extend({
     mapa: null,
     size: null,
+    nivelSeleccionado:null,
     mapaAncho: null,
     mapaAlto:null,
     jugador:null,
@@ -17,17 +22,19 @@ var AventuraGrafica = cc.Layer.extend({
     coleccionable1Colected:false,
     coleccionable2Colected:false,
     space:null,
-    ctor:function(){
+    ctor:function(nivelSeleccionado ){
         this._super();
         this.size = cc.winSize;
+
+        this.nivelSeleccionado = nivelSeleccionado;
 
         cc.spriteFrameCache.addSpriteFrames(res.playeridleright_plist)
         cc.spriteFrameCache.addSpriteFrames(res.playerrunright_plist);
         this.space = new cp.Space()
 
         //Depuration mode
-        this.depuracion = new cc.PhysicsDebugNode(this.space);
-        this.addChild(this.depuracion, 10);
+       // this.depuracion = new cc.PhysicsDebugNode(this.space);
+       // this.addChild(this.depuracion, 10);
 
         cc.eventManager.addListener({
             event: cc.EventListener.KEYBOARD,
@@ -94,7 +101,29 @@ var AventuraGrafica = cc.Layer.extend({
 
 
     },cargarMapa: function(){
-        this.mapa = new cc.TMXTiledMap(res.mapa_micky);
+        var coleccionableRes1 = null;
+        var coleccionableRes2 = null;
+        if(this.nivelSeleccionado == micky){
+            this.mapa = new cc.TMXTiledMap(res.mapa_micky);
+            coleccionableRes1 = res.pastilla_png;
+            coleccionableRes2 = res.tacataca_png;
+        }
+        if(this.nivelSeleccionado == kuzco){
+            this.mapa = new cc.TMXTiledMap(res.mapa_kuzco);
+            coleccionableRes1 = res.escopeta_png;
+            coleccionableRes2 = res.acondicionador_png;
+        }
+        if(this.nivelSeleccionado == ricardo){
+            this.mapa = new cc.TMXTiledMap(res.mapa_ricardo);
+            coleccionableRes1 = res.calzoncillo_png;
+            coleccionableRes2 = res.parchePirata_png;
+        }
+        if(this.nivelSeleccionado == bonifacio){
+            this.mapa = new cc.TMXTiledMap(res.mapa_albon);
+            coleccionableRes1 = res.anillo_png;
+            coleccionableRes2 = res.espatula_png;
+        }
+
         this.addChild(this.mapa);
         this.mapaAncho = this.mapa.getContentSize().width;
 
@@ -120,9 +149,7 @@ var AventuraGrafica = cc.Layer.extend({
         }
 
 
-        var coleccionableRes1 = res.pastilla_png;
-                      //poner aqui maximos if-else
-        var coleccionableRes2 = res.tacataca_png;
+
 
         var grupoColeccionables1 = this.mapa.getObjectGroup("coleccionable1");
         var coleccionable1Array1 = grupoColeccionables1.getObjects();
@@ -208,7 +235,43 @@ var AventuraGraficaScene = cc.Scene.extend({
     onEnter:function(){
         this._super();
         cc.director.resume();
-        var layer = new AventuraGrafica();
+        var layer = new AventuraGrafica(bonifacio);
+        this.addChild(layer);
+    }
+});
+
+var AventuraGraficaSceneMicky = cc.Scene.extend({
+    onEnter:function(){
+        this._super();
+        cc.director.resume();
+        var layer = new AventuraGrafica(micky);
+        this.addChild(layer);
+    }
+});
+
+var AventuraGraficaSceneBonifacio = cc.Scene.extend({
+    onEnter:function(){
+        this._super();
+        cc.director.resume();
+        var layer = new AventuraGrafica(bonifacio);
+        this.addChild(layer);
+    }
+});
+
+var AventuraGraficaSceneRicardo = cc.Scene.extend({
+    onEnter:function(){
+        this._super();
+        cc.director.resume();
+        var layer = new AventuraGrafica(ricardo);
+        this.addChild(layer);
+    }
+});
+
+var AventuraGraficaSceneKuzco = cc.Scene.extend({
+    onEnter:function(){
+        this._super();
+        cc.director.resume();
+        var layer = new AventuraGrafica(kuzco);
         this.addChild(layer);
     }
 });

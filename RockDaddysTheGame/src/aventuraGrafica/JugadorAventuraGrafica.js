@@ -56,7 +56,7 @@ var JugadorAventuraGrafica = cc.Class.extend({
         gameLayer.space.addShape(this.shapeObjetos);
 
         this.shapeColisiones = new cp.BoxShape(this.body,
-            this.sprite.getContentSize().width+60,
+            this.sprite.getContentSize().width+10,
             this.sprite.getContentSize().height - 20 );
 
         this.shapeColisiones.setFriction(1);

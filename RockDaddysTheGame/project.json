@@ -12,8 +12,8 @@
 
     "jsList" : [
         "src/resource.js",
-        "src/AventuraGrafica.js",
-        "src/ColeccionableAventuraGrafica.js",
-        "src/JugadorAventuraGrafica.js"
+        "src/aventuraGrafica/AventuraGrafica.js",
+        "src/aventuraGrafica/ColeccionableAventuraGrafica.js",
+        "src/aventuraGrafica/JugadorAventuraGrafica.js"
     ]
 }

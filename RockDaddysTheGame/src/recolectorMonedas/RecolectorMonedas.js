@@ -170,7 +170,6 @@ var RecolectorMonedasLayer = cc.Layer.extend({
         if(capaControles.monedas == 5){
             cc.director.pause();
              cc.audioEngine.stopMusic();
-             this.getParent().addChild(new GameOverLayer());
         }
 
 
@@ -226,7 +225,6 @@ var RecolectorMonedasLayer = cc.Layer.extend({
 
         cc.director.pause();
          cc.audioEngine.stopMusic();
-         this.getParent().addChild(new GameOverLayer());
     }
 
 

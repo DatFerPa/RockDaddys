@@ -82,10 +82,10 @@ var MickyWinLayer = cc.Layer.extend({
           var location = event.getLocation();
 
           if(instancia.perder){
-            cc.director.runScene(new MainMenuScene());
+            cc.director.runScene(new MenuSeleccionScene());
           }
           if(instancia.ganar){
-            cc.director.runScene(new MainMenuScene());
+            cc.director.runScene(new MenuSeleccionScene());
           }
 
             instancia.cargado = false;
@@ -156,7 +156,7 @@ var MickyWinLayer = cc.Layer.extend({
         console.log("HORA DE AVENTURAS!");
         this.aventura = false;
         auxTextPosition = this.posDialogo;
-        //llamese aquí a la fantabulosa aventura
+       cc.director.runScene(new AventuraGraficaSceneMicky());
 
     },launchMinijuego:function(){
         console.log("STEVEN!");

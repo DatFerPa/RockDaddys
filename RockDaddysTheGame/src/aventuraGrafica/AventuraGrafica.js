@@ -78,6 +78,9 @@ var AventuraGrafica = cc.Layer.extend({
 
         if(this.coleccionable1Colected && this.coleccionable2Colected){
             console.log("ganada aventura");
+            if(this.nivelSeleccionado == micky){
+                cc.director.runScene(new MickySceneWin());
+            }
         }
 
         for(var i = 0; i < this.formasEliminar.length; i++) {

@@ -1,0 +1,100 @@
+{
+  "titulo": "Alberto Bonifacio",
+  "dialogo" :{
+    "frases" : [
+      {
+        "personaje": true,
+        "estado" : 1,
+        "content": ["Hola, ¿está libre este sitio?"],
+        "options": []
+      },
+      {
+        "personaje": false,
+        "estado" : 1,
+        "content": ["Hm… depende de quien seas y quien quieras…"],
+        "options": []        
+      },
+      {
+        "personaje": true,
+        "estado" : 1,
+        "content": ["Esto… Bueno, yo soy, Don Julian de Todos los Santos Chalar Domínguez y simplemente quería charlar un poco…"],
+        "options": ["¿Y tú quién demonios eres?", "¿¿Y tu eres?? "],
+        "karma" : [-1,1]
+      },
+      {
+        "personaje": false,
+        "estado" : 1,
+        "content": ["Yo soy Don Alberto Bonifacio, pero para abreviar llámame Señor Albon. Un poco más de respeto joven, ¿no sabes con quien estás hablando?"],
+        "options": ["Ehm... no y baja esos humos si no quieres que te los baje yo", "No me suenas, lo siento"],
+        "karma": [-1,1]
+      },{
+        "personaje": true,
+        "estado" : 1,
+        "content": ["Pues la verdad que no se quien eres, y no sé si quiero saberlo","La verdad, te pido perdón, pero no, no me suenas…"],
+        "options": []
+      },{
+        "personaje": false,
+        "estado" : 1,
+        "content": ["¡PERO BUENO!, ¡PERO BUENO!, COMO YA TE HE DICHO SOY ALBERTO BONFACIO, CANTANTE, ACTOR, "],
+        "options": []
+
+      },{
+        "personaje": false,
+        "estado" : 1,
+        "content": ["¡Y GRANDISIMO COCINERO! *Susurrando* Y tengo una canción con Cher, que bueno, eso ahí queda…"],
+        "options": ["Se nota lo de la cocina", "Anda cocinero, que guay, me encanta la cocina."],
+        "karma" : [-10,5]          
+      },{
+        "personaje": true,
+        "estado" : 1,
+        "content": ["Si, si, ya se nota lo de la cocina…} ", "{¿Cocinero? Me apasiona la comida, cuéntame, cuéntame, ¿qué tipo de cocina te gusta?"],
+        "options": []        
+      },{
+        "personaje": false,
+        "estado" : 1,
+        "content": ["Bueno a ver, chaval, ten cuidadido que llama a mis amigas Columbia y Magenta y te parten las piernas. La cocina es un arte, y si tan listo respóndeme a esto"
+        ,"Pues a mi me gusta mucho la cocina tradicional, carnes y demás, soy un gran apasionado de las albóndigas, la verdad. Pero antes de seguir hablando, tengo que comprobar tus conocimientos de cocina."],
+        "options": []
+
+      },{
+        "personaje": false,
+        "estado" : 1,
+        "content": ["Dime, si quieres hacer unas buenas albóndigas, para hacerlas más jugosas ¿Qué hay que echarles? "],
+        "options": ["Ehm… un poco de amianto", "Un huevo batido"],
+        "karma" : [-5,5]
+      },{
+        "personaje": true,
+        "estado" : 1,
+        "content": ["A ver no es por darte aquí la chapa y tal, pero un poco de clembuterol y un chorrito de amianto", "Pues en mi casa siempre hemos echado un huevo batido"],
+        "options": []        
+      },{
+        "personaje": false,
+        "estado" : 1,
+        "content": ["Si bueno, fijo que así nadie te dice que cocinas mal... Te daré otra oportunidad anda...", "En efecto en efecto, veamos si conoces entonces los grandes secretos de la cocina"],
+        "options": []
+      },{
+        "personaje": false,
+        "estado" : 1,
+        "content": ["*SUENA EL TELÉFONO* *[Por el teléfono] ¿Señor Albon?* ¿Diga? ¿Hola? *Risas y se oye como cuelgan* \nVaya, otra vez con lo mismo… Es la tercera vez esta semana que me pasa esto…"],
+        "options": []
+      },{
+        "personaje": false,
+        "estado" : 1,
+        "content": ["Bueno, a lo que íbamos, sigamos comprobando tus conocimientos. ¿Cuáles es la mejor carne para hacer unas buenas albóndigas?"],
+        "options": ["Pero que albondigas ni que albondigos... Hamburguesas", "Da igual, estan buenas siempre"],
+        "karma" : [-1000, 1000]
+      },{
+        "personaje": true,
+        "estado" : 1,
+        "content": ["Pero que dices de albóndigas chaval, a mí sólo me gustan las hamburguesas.", "Pues depende, pero normalmente la carne que tenga por casa, las albóndigas están buenas de cualquier forma…"],
+        "options": []
+      },{
+        "personaje": false,
+        "estado" : 1,
+        "content": ["BUENO, PORFAVOR, NO TIENES NI IDEA", "Oh, así que eres de los mios eh compañero… Ven conmigo a mi restaurante, que te enseñaré todos los secretos de la cocina *susurrando* e igual alguno no tan de cocina"],
+        "options": []          
+      }
+    ]
+  }
+}
+

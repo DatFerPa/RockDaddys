@@ -1,0 +1,186 @@
+﻿{
+    "titulo":"Ricardo Lametones",
+    "dialogo":{
+        "frases" : [
+            {
+                "personaje" : true,
+                "estado" : 1,
+                "content":["Aquí estam... ¿PERO QUE?"],
+                "options":[]
+            },
+            {
+                "personaje": false,
+                "estado":1,
+                "content":["¿Te gusta mi choza?, no es gran cosa… "],
+                "options":[]
+            },
+            {
+                "personaje" : true,
+                "estado" : 1,
+                "content":["¿¿No es gran cosa?? *Este tio está loco*. ¡¡¡Es una mansión enorme!!!"],
+                "options":[]
+            },
+            {
+                "personaje": false,
+                "estado":1,
+                "content":["Bueno bueno, mansión tampoco, es que al arquitecto se le fue la mano un poco…  "],
+                "options":[]
+            },
+            {
+                "personaje" : true,
+                "estado" : 1,
+                "content":["Si… al arquitecto… ya. ¿Entonces, que hacemos?"],
+                "options":[]
+            },
+            {
+                "personaje" : false,
+                "estado" : 1,
+                "content":["Vamos al salón del tercer piso, que así no nos molesta nadie del servicio."],
+                "options":[]
+            },
+            {
+                "personaje" : true,
+                "estado" : 1,
+                "content":["¿Pero también tienes servicio?"],
+                "options":[]
+            },
+            {
+                "personaje" : false,
+                "estado" : 1,
+                "content":["Si si, es una casa grande alteza, para poder limpiarla necesito un batallón de limpieza."],
+                "options":[]
+            },
+            {
+                "personaje" : true,
+                "estado" : 1,
+                "content":["*¿Alteza? ¿No se le está yendo un poco de las manos esto de rimar todo el rato?* Y dime, ¿como has conseguido esta casa? "],
+                "options":[]
+            },
+            {
+                "personaje" : false,
+                "estado" : 1,
+                "content":["Na bueno colega, soy rapero, y si quiero me puedo comprar el mundo entero."],
+                "options":[]
+            },
+            {
+                "personaje" : true,
+                "estado" : 1,
+                "content":["…"],
+                "options":[]
+            },
+            {
+                "personaje" : false,
+                "estado" : 1,
+                "content":["Es broma amigo, esta casa era de mi tío."],
+                "options":[]
+            },
+            {
+                "personaje" : true,
+                "estado" : 1,
+                "content":["Ah vale… Por cierto, no te ofendas… ¿Pero esto no está hecho un desastre? "],
+                "options":[]
+            },
+            {
+                "personaje" : false,
+                "estado" : 1,
+                "content":["Si bueno, un poco, es que yo vivo en esta parte y no quiero que me molesten mientras creo mi parte. "],
+                "options":[]
+            },
+            {
+                "personaje" : false,
+                "estado" : 1,
+                "content":["Ahora que lo pienso… tengo que buscar algo ¿me podrías ayudar? Te lo recompensaré, porque yo lo valgo."],
+                "options":[]
+            },
+            {
+                "personaje" : false,
+                "estado" : 1,
+                "content":["Buscame un parche que es la clave del deprave de mis ropajes. "],
+                "options":[]
+            },
+            {
+                "personaje" : false,
+                "estado" : 1,
+                "content":["Traeme también mis calzoncillos, porque soy el más punky de los gordillos, también fijate que sean de guchi, osea que al tajo y mutis."],
+                "options":[]
+            },
+            {
+                "personaje" : true,
+                "estado" : 2,
+                "content":["Si, si, sin problema."],
+                "options":[]
+            },
+            {
+                "personaje" : false,
+                "estado" : 1,
+                "content":["Eres el mejor, la verdad, yo creo que me podrías salvar de una catástrofe termonuclear."],
+                "options":[]
+            },
+            {
+                "personaje" : true,
+                "estado" : 1,
+                "content":["*Ya está otra vez con las rimas forzadas…* [Sonidos de sirenas]. ¿Oyes eso? "],
+                "options":[]
+            },
+            {
+                "personaje" : false,
+                "estado" : 1,
+                "content":["Meca es la pasma, tendremos que salir de aquí a toda prisa, ya cenaremos de camino una pizza."],
+                "options":[]
+            },
+            {
+                "personaje" : true,
+                "estado" : 1,
+                "content":["Pero tio, tu eres famoso, seguro que puedes arreglarlo.  "],
+                "options":[]
+            },
+            {
+                "personaje" : false,
+                "estado" : 1,
+                "content":["Tienes razón, tienes razón, seguro que podre sacarnos de este marrón… Ven acompáñame a mi habitación, que te un ideón."],
+                "options":[]
+            },
+            {
+                "personaje" : true,
+                "estado" : 1,
+                "content":["Dale!"],
+                "options":[]
+            },
+            {
+                "personaje" : false,
+                "estado" : 3,
+                "content":["Te voy a ir lanzando joyas, intenta coger todas las que puedas, relájate, todo va a ir sobre ruedas. Pero acuérdate tio, si coges un papel de inmigración, me meterán entre rejas, vaya dramón."],
+                "options":[]
+            },
+            {
+                "personaje" : true,
+                "estado" : 1,
+                "content":["Lo has hecho, lo has conseguido, no te has puesto nervioso, estabas muy decidido… [Sonrie] ¿Te puedo hacer una pregunta? ¿Yo soy guapo?"],
+                "options":[]
+            },
+            {
+                "personaje" : true,
+                "estado" : 1,
+                "content":["Mm si… Weno pss, si… normal… "],
+                "options":[]
+            },
+            {
+                "personaje" : true,
+                "estado" : 1,
+                "content":["Ven aquí bribón, vamos a aprovechar que estamos en mi habitación.  "],
+                "options":[]
+            }
+
+
+
+
+
+
+
+
+        ]
+
+    }
+
+
+}

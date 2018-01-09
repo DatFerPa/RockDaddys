@@ -1,0 +1,82 @@
+﻿{
+  "titulo" : "Blank Uzco Brain",
+  "dialogo" : {
+	"frases" : [
+	  {
+		"personaje" : true,
+		"estado" : 1,
+		"content" : [" Ehm… Que lugar tan acogedor… *creo que no tenemos el mismo concepto de agradable*. "],
+		"options" : []
+	  },
+	  {
+		"personaje" : false,
+		"estado" : 1,
+		"content" : [" Si bueno, gracias, supongo, no vengo mucho por aquí porque me paso el día por ahí deambulando, para intentar olvidarme de lo pesada que es mi existencia.   "],
+		"options" : []
+	  },
+	  {
+		"personaje" : true,
+		"estado" : 1,
+		"content" : ["Hm, comprendo, me gusta el estilo tan… urbano… *aunque ventilar un poco no vendría mal*."],
+		"options" : []
+	  },
+	  {
+		"personaje" : false,
+		"estado" : 1,
+		"content" : ["Guay… oye ya que estás aquí, me puedes echar una mano buscándome un par de cosas, pareces un tío listo y yo no las encuentro… "],
+		"options" : []
+	  },
+	  {
+		"personaje" : false,
+		"estado" : 1,
+		"content" : ["Ayúdame a encontrar mi escopeta, la usé el otro día y no sé dónde la he dejado. Además, necesitaría algo de acondicionador, porque tengo el pelo muy rebelde por la parte de la coronilla y no sé porque será"],
+		"options" : []
+	  },
+	  {
+		"personaje" : true,
+		"estado" : 2,
+		"content" : ["Si, por supuesto."],
+		"options" : []
+	  },
+	  {
+		"personaje" : true,
+		"estado" : 1,
+		"content" : ["Aquí tienes lo que me pediste"],
+		"options" : []
+	  },
+	  {
+		"personaje" : false,
+		"estado" : 3,
+		"content" : ["Guay colega, no esperaba menos, ven, vayamos al salón, que te voy a enseñar mi juego favorito, y si me ganas, tendrás una buena recompensa, y no te preocupes, no se inyecta… *susurrando* O si… "],
+		"options" : []
+	  },
+	  {
+		"personaje" : false,
+		"estado" : 1,
+		"content" : ["Bueno, no ha estado mal, si quieres esto… podemos ir a mi habitación y bueno, escuchar música y eso o yo que se."],
+		"options" : []
+	  },{
+		"personaje" : false,
+		"estado" : 1,
+		"content" : ["HAS GANADO, HAS CONQUISTADO A BLANK KUZCO BRAIN,\n¡¡ENHORABUENA!!"],
+		"options" : []
+
+	  }
+
+
+
+
+
+
+
+
+
+
+
+	]
+
+  }
+
+
+
+}

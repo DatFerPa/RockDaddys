@@ -89,7 +89,7 @@
            "content": ["Sin problema, soy un gran conductor… De los mejores me atrevería a decir"],
            "options": []
          },{
-           "personaje": true,
+           "personaje": false,
            "estado" : 1,
            "content": ["Jajaja, no lo dudo. Vamos pues."],
            "options": []

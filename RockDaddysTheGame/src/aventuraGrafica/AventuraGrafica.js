@@ -81,6 +81,15 @@ var AventuraGrafica = cc.Layer.extend({
             if(this.nivelSeleccionado == micky){
                 cc.director.runScene(new MickySceneWin());
             }
+            if(this.nivelSeleccionado == bonifacio){
+                cc.director.runScene(new BonifacioSceneWin());
+            }
+            if(this.nivelSeleccionado == kuzco){
+                cc.director.runScene(new KuzcoSceneWin());
+            }
+            if(this.nivelSeleccionado == ricardo){
+                cc.director.runScene(new RicardoSceneWin());
+            }
         }
 
         for(var i = 0; i < this.formasEliminar.length; i++) {

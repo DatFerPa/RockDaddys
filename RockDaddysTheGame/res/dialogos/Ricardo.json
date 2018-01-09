@@ -1,0 +1,119 @@
+﻿{
+  "titulo": "Ricardo Lametones",
+  "dialogo" : {
+    "frases" : [
+      {
+        "personaje" : true,
+        "estado" : 1,
+        "content" : ["Hola,¿Me puedo sentar?"],
+        "options" : []
+      },
+      {
+        "personaje" : false,
+        "estado" : 1,
+        "content" : ["Por supuesto, no creas que me vas a incomodar"],
+        "options" : []
+      },
+      {
+        "personaje" : true,
+        "estado" : 1,
+        "content" : ["Ehm… Vale… *¿Acaba de responderme rapeando? * Bueno, a lo que iba, ¿tu eres Ricardo Lametones?"],
+        "options" : []
+      },
+      {
+        "personaje" : false,
+        "estado" : 1,
+        "content" : ["Si en efecto, me presento, soy Ricardo Lametones, el mismo que viste y canta, quien lo pregunta, dímelo rápido, Sancho panza."],
+        "options" : []
+      },
+      {
+        "personaje" : true,
+        "estado" : 1,
+        "content" : ["Esto… Yo soy… Julián, * pues si, me ha respondido rapeando, ¿pero qué está pasando? "],
+        "options" : []
+      },
+      {
+        "personaje" : false,
+        "estado" : 1,
+        "content" : ["Ey tio tranquilo, que no te vacilo, debes estas flipando porque te estoy respondiendo rapeando."],
+        "options" : []
+      },
+      {
+        "personaje" : false,
+        "estado" : 1,
+        "content" : ["Pero tio, yo soy así, cuando rapeo me entra como un frenesí. Tienes que probarlo, sabes lo que te digo, si lo haces vas a gozarlo. A ver si yo te digo: 'Que tal campeón'. ¿Cual sería tu contestacion?"],
+        "options" : ["Pues muy bien, gracias, ¿y tu?","Pues aquí, tocando mi nuevo acordeón."],
+        "karma" : [-1,2]
+
+      },
+      {
+        "personaje": true,
+        "estado" : 1,
+        "content": ["Pues muy bien, gracias, ¿y tu?","♪♪♪Pues aquí, tocando mi nuevo acordeón.♪♪♪"],
+        "options": []
+      },
+      {
+        "personaje": false,
+        "estado" : 1,
+        "content": ["Ey tio, no me has entendido, con una rima me tendrías que haber respondido. Vamos a intentarlo otra vez…"
+        ,"Eso es colega, para rapear tienes madera. Vamos a seguir, que tu talento quiero medir"],
+        "options": []
+      },
+      {
+        "personaje" : false,
+        "estado" : 1,
+        "content" : ["A ver, si ahora te dijera “Al oeste en Filadelfia, crecía y vivía…"],
+        "options" : ["Pero si yo soy de Torrelavega, y nunca he salido de España, que filadelfia ni que niño muerto…","Sin hacer mucho caso de la policía"],
+        "karma" : [-1,2]
+
+      },
+      {
+        "personaje" : true,
+        "estado" : 1,
+        "content" : ["Pero si yo soy de Torrelavega, y nunca he salido de España, que filadelfia ni que niño muerto…","♪♪♪Sin hacer mucho caso de la policía♪♪♪"],
+        "options" : []
+      },
+      {
+        "personaje": false,
+        "estado" : 1,
+        "content": ["Hm a ver colega, esta era sencilla, tienes que ponerte las pilas, y hacerme caer de la silla. Vamos a volver a intentarlo, pero no creo que vayas a lograrlo"
+        ,"Wow amigo, eres muy bueno, sigamos, sigamos, que no quiero ponerte freno."],
+        "options": []
+      },
+      {
+        "personaje" : false,
+        "estado" : 1,
+        "content" : ["Vamos con la última, la rima imposible, si la resuelves, serás invencible. Si te digo “1, 2 y 3” ¿tú me dices?"],
+        "options" : ["¿4?","Tengo una vida muy FRESH"],
+        "karma" : [-3,6]
+      },
+      {
+        "personaje" : true,
+        "estado" : 1,
+        "content" : ["¿4?","♪♪♪Tengo una vida muy FRESH♪♪♪"],
+        "options": []
+      },
+      {
+        "personaje" : false,
+        "estado" : 1,
+        "content" : ["¿¿¿Enserio??? Tu incapacidad es un misterio…","Wow, alucinante, tu capacidad para rimar es impactante."],
+        "options" : []
+      },
+      {
+        "personaje" : false,
+        "estado" : 1,
+        "content" : ["Me gusta tu estilo, ¿Quieres que nos vayamos a un lugar más tranquilo?"],
+        "options" : ["Si","No"],
+        "karma" : [100,-1000]
+      },{
+        "personaje" : true,
+        "estado" : 1,
+        "content" : ["Si, no aguanto más este bar, me da ganas de vomitar","No mira, no, lo siento.}"],
+        "options" : []
+      }
+
+    ]
+
+  }
+
+}

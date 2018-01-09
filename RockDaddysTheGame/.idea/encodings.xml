@@ -2,5 +2,14 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/dialogos/Blank.json" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/res/dialogos/Blank_fase2.json" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/res/dialogos/Ricardo.json" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/res/dialogos/Ricardo_fase2.json" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/res/dialogos/albon_escenario.jpg" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/res/mosquitos/fondo.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/res/mosquitos/mosquito.plist" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/res/mosquitos/mosquito.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/res/mosquitos/smack.png" charset="windows-1252" />
   </component>
 </project>

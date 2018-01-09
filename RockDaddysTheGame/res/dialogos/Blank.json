@@ -1,0 +1,137 @@
+﻿{
+    "titulo" : "Blank Uzco Brain",
+    "dialogo" : {
+        "frases" : [
+            {
+                "personaje":false,
+                "estado": 1,
+                "content" : ["Eh, tu, ven aquí."],
+                "options" : []
+            },
+            {
+                "personaje":true,
+                "estado": 1,
+                "content" : ["¿Yo?"],
+                "options" : []
+            },
+            {
+                "personaje":false,
+                "estado": 1,
+                "content" : ["Si si, tu, rápido, no tengo todo el día."],
+                "options" : ["Calmate","¿Que pasa?"],
+                "karma" : [0,0]
+            },
+            {
+                "personaje":true,
+                "estado": 1,
+                "content" : ["Ey ey calma tio","¿A ver, por qué tanta prisa?"],
+                "options" : []
+            },
+            {
+                "personaje":false,
+                "estado": 1,
+                "content" : ["Tú también tendrías prisa si hubieses pasado por todo lo que yo he pasado."],
+                "options" : []
+            },
+            {
+                "personaje":true,
+                "estado": 1,
+                "content" : ["¿Por que has pasado?"],
+                "options" : []
+            },
+            {
+                "personaje":false,
+                "estado": 1,
+                "content" : ["Nada nada, déjalo… [27 años, 27…]"],
+                "options" : ["Pasar de el","Preocuparse"],
+                "karma" : [-1,1]
+            },
+            {
+                "personaje":true,
+                "estado": 1,
+                "content" : ["¿¿¿Entonces si no quieres hablar, para que me llamas???","Ey amigo, ¿estás bien?, cuéntame, enserio, si puedo, te ayudaré"],
+                "options" : []
+            },
+            {
+                "personaje":false,
+                "estado": 1,
+                "content" : ["A ver… verás, yo era alguien famoso hace unos años, tocaba en un grupo, Mihermana, y bueno, conseguimos despertar algo en la sociedad, pero míranos ahora, estamos peor que hace 60 años, el cambio climático, los derechos humanos, las guerras… (y tuiter, maldito tuiter)"],
+                "options" : []
+            },
+            {
+                "personaje":false,
+                "estado": 1,
+                "content" : [""],
+                "options" : ["Dar la razón","No dar la razón"],
+                "karma" : [2,-2]
+            },
+            {
+                "personaje":true,
+                "estado": 1,
+                "content" : ["Pues tienes bastante razón, pero no hay que darse por vencido, si se sigue creyendo, podremos solucionarlo todo…","Pues yo creo que estamos mejor que antes, la verdad…"],
+                "options" : []
+            },
+            {
+                "personaje":false,
+                "estado": 1,
+                "content" : ["No se… creo que ya no hay vuelta atrás…","Por culpa de gente como tú, las cosas están como están, y como sigamos así todo se va a ir al garete"],
+                "options" : []
+            },
+            {
+                "personaje":false,
+                "estado": 1,
+                "content" : [" Hay muchas cosas que hay que cambiar y muy poco tiempo, como sigamos así en menos de 2 años la habremos diñado todos…(y encima me he dejado la luz del garaje encendida, día genial) Yo no estoy preparado para volver a pasar por eso… "],
+                "options" : []
+            },
+            {
+                "personaje":false,
+                "estado": 1,
+                "content" : [""],
+                "options" : ["Dar la razón","No dar la razón"],
+                "karma" : [2,-2]
+            },
+            {
+                "personaje":true,
+                "estado": 1,
+                "content" : ["Entiendo lo que me dices, pero no estoy de acuerdo, por muy feo que pinte todo, créeme, las cosas van a mejorar, te lo aseguro","Pues mejor, menos muertos de hambre chupando del gobierno y más dinero para el bien común"],
+                "options" : []
+            },
+            {
+                "personaje":false,
+                "estado": 1,
+                "content" : ["Puede que tengas razón, la verdad que tu visión de la vida creo que es demasiado positiva, pero puede que no todo sea negro…","No tengo más que decirte, sigue con tus pensamientos y pronto te encontrarás con un panorama de absoluta desolación"],
+                "options" : []
+            },
+            {
+                "personaje":false,
+                "estado": 1,
+                "content" : [" La verdad, tenía un amigo que es periodista, Jerusalem se llamaba, pero nosotros le llamábamos Spyder, porque tenía un tatuaje de una araña en la cabeza, que un día me dijo que, si seguíamos así, la sociedad estaba avocada a su inexorable autodestrucción… Se que es un poco exagerado, pero hay días en los que creo que no le falta razón… Hace unos años se suicidó, dijo que ya no aguantaba más esta sociedad de burocracia y pasotismo, y la verdad, en días como hoy, en los que estoy sólo, en este tugurio, sin nadie con el que hablar, me pregunto si debería hacer lo mismo."],
+                "options" : []
+            },
+            {
+                "personaje":false,
+                "estado": 1,
+                "content" : [""],
+                "options" : ["Pasar de el","Apenarse de el"],
+                "karma" : [-100,10]
+            },
+            {
+                "personaje":true,
+                "estado": 1,
+                "content" : ["¿Y a mi que me cuentas?","¿Pero ahora mismo no estás solo no? ¿Venga, porque no nos vamos de este tugurio y vamos a un sitio mejor?"],
+                "options" : []
+            },
+            {
+                "personaje":false,
+                "estado": 1,
+                "content" : ["Hm, bueno, venga, si, porque no… Podemos ir a mi casa si quieres."],
+                "options" : []
+            },
+            {
+                "personaje":true,
+                "estado": 1,
+                "content" : ["Vale, vamos, yo te llevo…"],
+                "options" : []
+            }]
+    }
+}

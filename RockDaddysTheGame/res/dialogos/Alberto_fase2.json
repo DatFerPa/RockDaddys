@@ -1,0 +1,100 @@
+{
+  "titulo": "Alberto Bonifacio",
+  "dialogo" :{
+    "frases" : [
+      {
+        "personaje": false,
+        "estado" : 1,
+        "content": ["¿¿¿PERO QUÉ ES ESTE DESASTRE???"],
+        "options": []
+      },
+      {
+        "personaje": true,
+        "estado" : 1,
+        "content": ["Hm… ¿Desastre? Yo sólo veo un restaurante normal y corriente..."],
+        "options": []        
+      },
+      {
+        "personaje": false,
+        "estado" : 1,
+        "content": ["¿No lo ves? Mis ayudantes están perdidos sin mi, \nseguro que con este tiempo han liado una muy grande"],
+        "options": []
+      },
+      {
+        "personaje": true,
+        "estado" : 1,
+        "content": ["Pues tendremos que echarles una mano, ¿no?"],
+        "options": []
+      },{
+        "personaje": false,
+        "estado" : 1,
+        "content": ["¿Tendremos?"],
+        "options": []
+      },{
+        "personaje": true,
+        "estado" : 1,
+        "content": ["Bueno... no te voy a dejar a ti sólo con este marron mientras yo me quedo mirando\n¿no?"],
+        "options": []
+
+      },{
+        "personaje": false,
+        "estado" : 2,
+        "content": ["No sabes cuanto te lo agradezco de verdad...\nVerás, con este temporal, mis inutiles ayudantes han perdido\n mi posesiones más preciada, una espatula de la suerte y un anillo. \n¿Me ayudas a recuperarlas?"],
+        "options": []
+      },{
+        "personaje": true,
+        "estado" : 1,
+        "content": ["Aquí estan, como me pediste, la espátula y el anillo. Espero que te sirvan"],
+        "options": []        
+      },{
+        "personaje": false,
+        "estado" : 1,
+        "content": ["Bueno, no sabes del apuro que me sacas... ¿Te podría pedir otro favor?"],
+        "options":[]
+
+      },{
+        "personaje": true,
+        "estado" : 1,
+        "content": ["Si si, por supuesto, mientras luego me invites a cenar..."],
+        "options": []
+      },{
+        "personaje": false,
+        "estado" : 1,
+        "content": ["Verás, estamos muy atareados y necesitamos camareros, podrías de encargarte de un par de mesas, ¿porfavor?"],
+        "options": []        
+      },{
+        "personaje": true,
+        "estado" : 3,
+        "content": ["A ello voy chef."],
+        "options": []
+      },{
+        "personaje": false,
+        "estado" : 1,
+        "content": ["Bueno, Julian, no sabes lo mucho que me has ayudado hoy..."],
+        "options": []
+      },{
+        "personaje": true,
+        "estado" : 1,
+        "content": ["Pero si no ha sido nada..."],
+        "options": []
+
+      },{
+        "personaje": false,
+        "estado" : 1,
+        "content": ["Bueno bueno, eso lo decidiré yo. ¿Quieres subir a mi casa y te invito a cenar? Los postres los pones tu ;)"],
+        "options": []
+      },{
+        "personaje": true,
+        "estado" : 1,
+        "content": ["Por supuesto."],
+        "options": []          
+      },{
+        "personaje": false,
+        "estado" : 1,
+        "content": ["HAS GANADO, HAS CONQUISTADO A MEAT L... digo... A ALBERTO BONIFACIO,\n¡¡ENHORABUENA!!"],
+        "options": []
+      }
+    ]
+  }
+}
+

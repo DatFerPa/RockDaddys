@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>mosquito1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,13},{31,13}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{31,13}}</string>
+				<key>sourceSize</key>
+				<string>{31,13}</string>
+			</dict>
+
+			<key>mosquito2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,27},{29,13}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{29,13}}</string>
+				<key>sourceSize</key>
+				<string>{29,13}</string>
+			</dict>
+
+			<key>mosquito3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{32,19},{23,15}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{23,15}}</string>
+				<key>sourceSize</key>
+				<string>{23,15}</string>
+			</dict>
+
+			<key>mosquito4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{25,54},{24,14}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{24,14}}</string>
+				<key>sourceSize</key>
+				<string>{24,14}</string>
+			</dict>
+
+			<key>mosquito5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{32,0},{24,18}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{24,18}}</string>
+				<key>sourceSize</key>
+				<string>{24,18}</string>
+			</dict>
+
+			<key>mosquito6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,41},{24,18}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{24,18}}</string>
+				<key>sourceSize</key>
+				<string>{24,18}</string>
+			</dict>
+
+			<key>mosquito7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{50,35},{21,13}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{21,13}}</string>
+				<key>sourceSize</key>
+				<string>{21,13}</string>
+			</dict>
+
+			<key>mosquito8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{25,41},{24,12}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{24,12}}</string>
+				<key>sourceSize</key>
+				<string>{24,12}</string>
+			</dict>
+
+			<key>mosquito9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{31,12}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{31,12}}</string>
+				<key>sourceSize</key>
+				<string>{31,12}</string>
+			</dict>
+
+		</dict>
+
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>size</key>
+			<string>{72,69}</string>
+			<key>textureFileName</key>
+			<string>mosquito.png</string>
+			</dict>
+		</dict>
+</plist>

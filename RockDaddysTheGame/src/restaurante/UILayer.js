@@ -114,11 +114,13 @@ var UILayer = cc.Layer.extend({
         if(this.mesas == this.maxMesasServidas) {
             // GANAR JUEGO
 
-            cc.director.pause();
+            //cc.director.pause();
             cc.audioEngine.stopMusic();
             cc.audioEngine.playEffect(res.sonido_win_wav);
 
-            this.getParent().addChild(new WinLayer());
+            //this.getParent().addChild(new WinLayer());
+            console.log(auxTextPosition);
+            cc.director.runScene(new BonifacioSceneWin());
         }
 
     }, quitarMesa:function() {

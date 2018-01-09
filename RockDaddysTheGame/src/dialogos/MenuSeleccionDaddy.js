@@ -11,9 +11,6 @@ var MenuSeleccionLayer = cc.Layer.extend({
     ctor:function () {
         this._super();
         var size = cc.winSize;
-        cc.loader.loadJson(res.textos_micky,function(error, data){
-            cc.log(data);// data is the json object
-        });
         auxTextPosition = 0;
         this.spriteFondo = cc.Sprite.create(res.fondo_png);
         this.spriteFondo.setPosition(cc.p(size.width/2 , size.height/2));
@@ -57,16 +54,28 @@ var MenuSeleccionLayer = cc.Layer.extend({
           var nodeSpaceLocation = instancia.spriteAlberto.getParent().convertToNodeSpace(location);
           if (cc.rectContainsPoint(instancia.spriteAlberto.getBoundingBox(), nodeSpaceLocation)) {
             console.log("Alberto");
+            cc.loader.loadJson(res.textos_alberto,function(error, data){
+               texto = data;
+            });
+            stage = "alberto_bar";
+            psj = "alberto"
+            cc.director.runScene(new BonifacioSceneBar());
           }
           nodeSpaceLocation = instancia.spriteBlank.getParent().convertToNodeSpace(location);
           if (cc.rectContainsPoint(instancia.spriteBlank.getBoundingBox(), nodeSpaceLocation)) {
             console.log("Blank");
+            cc.loader.loadJson(res.textos_kuzco,function(error, data){
+                texto = data;
+            });
+            stage = "kuzco_bar";
+            psj = "kuzco"
+            cc.director.runScene(new KuzcoSceneBar());
           }
           nodeSpaceLocation = instancia.spriteMicky.getParent().convertToNodeSpace(location);
           if (cc.rectContainsPoint(instancia.spriteMicky.getBoundingBox(), nodeSpaceLocation)) {
             console.log("Micky");
             cc.loader.loadJson(res.textos_micky,function(error, data){
-                        texto = data;
+                 texto = data;
             });
             stage = "micky_bar";
             psj = "micky"
@@ -75,6 +84,12 @@ var MenuSeleccionLayer = cc.Layer.extend({
            nodeSpaceLocation = instancia.spriteRicardo.getParent().convertToNodeSpace(location);
           if (cc.rectContainsPoint(instancia.spriteRicardo.getBoundingBox(), nodeSpaceLocation)) {
             console.log("Ricardo");
+            cc.loader.loadJson(res.textos_ricardo,function(error, data){
+                 texto = data;
+            });
+            stage = "ricardo_bar";
+            psj = "ricardo"
+            cc.director.runScene(new RicardoSceneBar());
           }
 
 

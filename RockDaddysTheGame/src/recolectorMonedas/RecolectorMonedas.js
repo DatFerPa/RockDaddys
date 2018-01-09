@@ -29,7 +29,7 @@ var RecolectorMonedasLayer = cc.Layer.extend({
 
         //definiendo la gravedad
         this.space = new cp.Space();
-        this.space.gravity = cp.v(0,-300);
+        this.space.gravity = cp.v(0,-100);
 
         this.spriteFondo = cc.Sprite.create(res.fondo_jungla);
         this.spriteFondo.setPosition(cc.p(size.width/2 , size.height/2));
@@ -168,8 +168,10 @@ var RecolectorMonedasLayer = cc.Layer.extend({
         var capaControles = this.getParent().getChildByTag(idCapaPuntuacion);
 
         if(capaControles.monedas == 5){
-            cc.director.pause();
+            //cc.director.pause();
              cc.audioEngine.stopMusic();
+              cc.director.runScene(new RicardoSceneWin());
+
         }
 
 

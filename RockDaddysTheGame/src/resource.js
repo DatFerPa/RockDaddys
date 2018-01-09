@@ -27,6 +27,12 @@ var res = {
     sonido_inicio_wav: "res/sonido_inicio.wav",
     textos_micky : "res/dialogos/Micky.json",
     textos_micky_fase2 : "res/dialogos/Micky_fase2.json",
+    textos_alberto: "res/dialogos/Alberto.json",
+    textos_alberto_fase2: "res/dialogos/Alberto_fase2.json",
+    textos_kuzco: "res/dialogos/Blank.json",
+    textos_kuzco_fase2: "res/dialogos/Blank_fase2.json",
+    textos_ricardo: "res/dialogos/Ricardo.json",
+    textos_ricardo_fase2: "res/dialogos/Ricardo_fase2.json",
     fondo_png : "res/dialogos/bar_inicio.png",
     fondo_micky_fase2 : "res/dialogos/micky_escenario.jpg",
     dialogos_jugador: "res/dialogos/plantillaDialogos_jugador.png",
@@ -72,10 +78,12 @@ var res = {
     sonido_recoger_wav: "res/restaurante/sonido_recoger.wav",
     sonido_win_wav: "res/sonido_win.wav",
     sonido_game_over_wav: "res/sonido_game_over.wav",
-    sonido_nuevo_cliente_wav: "res/restaurante/sonido_nuevo_cliente.wav"
-
-
-};
+    sonido_nuevo_cliente_wav: "res/restaurante/sonido_nuevo_cliente.wav",
+    fondo_mosquitos_png : "res/mosquitos/fondo.png",
+    mosquito_png : "res/mosquitos/mosquito.png",
+    smack_png : "res/mosquitos/smack.png",
+    mosquito_plist : "res/mosquitos/mosquito.plist"
+ };
 
 var g_resources = [];
 for (var i in res) {

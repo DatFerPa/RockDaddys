@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>beso_arriba1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{39,47}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{39,47}}</string>
+				<key>sourceSize</key>
+				<string>{39,47}</string>
+			</dict>
+
+			<key>beso_arriba2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{40,0},{26,46}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{26,46}}</string>
+				<key>sourceSize</key>
+				<string>{26,46}</string>
+			</dict>
+
+			<key>beso_arriba3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{65,47},{25,46}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{25,46}}</string>
+				<key>sourceSize</key>
+				<string>{25,46}</string>
+			</dict>
+
+			<key>beso_arriba4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{37,48},{27,47}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{27,47}}</string>
+				<key>sourceSize</key>
+				<string>{27,47}</string>
+			</dict>
+
+			<key>beso_arriba5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,48},{36,47}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{36,47}}</string>
+				<key>sourceSize</key>
+				<string>{36,47}</string>
+			</dict>
+
+		</dict>
+
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>size</key>
+			<string>{128,128}</string>
+			<key>textureFileName</key>
+			<string>beso_arriba.png</string>
+			</dict>
+		</dict>
+</plist>

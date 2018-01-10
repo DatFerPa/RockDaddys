@@ -168,7 +168,7 @@ var RecolectorMonedasLayer = cc.Layer.extend({
         var capaControles = this.getParent().getChildByTag(idCapaPuntuacion);
 
         if(capaControles.monedas == 5){
-            //cc.director.pause();
+            cc.director.pause();
              cc.audioEngine.stopMusic();
               cc.director.runScene(new RicardoSceneWin());
 
@@ -227,6 +227,9 @@ var RecolectorMonedasLayer = cc.Layer.extend({
 
         cc.director.pause();
          cc.audioEngine.stopMusic();
+        //cc.director.runScene(new GameOverLayer());
+        this.getParent().addChild(new GameOverLayer());
+
     }
 
 

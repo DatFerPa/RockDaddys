@@ -38,7 +38,12 @@
         "src/restaurante/ControlesLayer.js",
         "src/restaurante/GameSceneRestaurante.js",
         "src/restaurante/Mesa.js",
-        "src/restaurante/UILayer.js"
+        "src/restaurante/UILayer.js",
+        "src/besos/BesosMiniJuego.js",
+        "src/besos/Anciana.js",
+        "src/besos/Jugador.js",
+        "src/besos/Beso.js",
+        "src/besos/TiempoBesosLayer.js"
 
 
     ]

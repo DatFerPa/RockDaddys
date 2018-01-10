@@ -5,15 +5,17 @@ var GameOverLayer = cc.LayerColor.extend({
 
         var size = cc.winSize;
 
-        // Fondo
-        var spriteFondoTitulo= new cc.Sprite(res.game_over_png);
-        // Asigno posición central
-        spriteFondoTitulo.setPosition(cc.p(size.width / 2, size.height / 2));
-        // Lo escalo porque es más pequeño que la pantalla
-        spriteFondoTitulo.setScale(size.height / spriteFondoTitulo.height);
-        // Añado Sprite a la escena
-        this.addChild(spriteFondoTitulo);
+        // Fondo game_over_reducido
 
+        var botonGameOver = new cc.MenuItemSprite(
+             new cc.Sprite(res.game_over_reducido),
+             new cc.Sprite(res.game_over_reducido),
+             this.gameOverCLick, this);
+
+        var menu = new cc.Menu(botonGameOver);
+        this.addChild(menu);
         return true;
+    },gameOverCLick:function(){
+        cc.director.runScene(new MenuSeleccionScene());
     }
 });

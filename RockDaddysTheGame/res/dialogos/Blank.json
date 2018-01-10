@@ -105,7 +105,19 @@
             {
                 "personaje":false,
                 "estado": 1,
-                "content" : [" La verdad, tenía un amigo que es periodista, Jerusalem se llamaba, pero nosotros le llamábamos Spyder, porque tenía un tatuaje de una araña en la cabeza, que un día me dijo que, si seguíamos así, la sociedad estaba avocada a su inexorable autodestrucción… Se que es un poco exagerado, pero hay días en los que creo que no le falta razón… Hace unos años se suicidó, dijo que ya no aguantaba más esta sociedad de burocracia y pasotismo, y la verdad, en días como hoy, en los que estoy sólo, en este tugurio, sin nadie con el que hablar, me pregunto si debería hacer lo mismo."],
+                "content" : [" La verdad, tenía un amigo que es periodista, Jerusalem se llamaba, pero nosotros le llamábamos Spyder, porque tenía un tatuaje de una araña en la cabeza, que un día me dijo que, si seguíamos así, la sociedad estaba avocada a su inexorable autodestrucción…"],
+                "options" : []
+            },
+            {
+                "personaje":false,
+                "estado": 1,
+                "content" : [" La verdad, tenía un amigo que es periodista, Jerusalem se llamaba, pero nosotros le llamábamos Spyder, porque tenía un tatuaje de una araña en la cabeza, que un día me dijo que, si seguíamos así, la sociedad estaba avocada a su inexorable autodestrucción… "],
+                "options" : []
+            },
+            {
+                "personaje":false,
+                "estado": 1,
+                "content" : ["Hace unos años se suicidó, dijo que ya no aguantaba más esta sociedad de burocracia y pasotismo, y la verdad, en días como hoy, en los que estoy sólo, en este tugurio, sin nadie con el que hablar, me pregunto si debería hacer lo mismo."],
                 "options" : []
             },
             {

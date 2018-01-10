@@ -162,7 +162,7 @@ var MickyWinLayer = cc.Layer.extend({
         console.log("STEVEN!");
         this.minijuego = false;
         auxTextPosition = this.posDialogo;
-       //cc.director.runScene(new RestauranteGameScene());
+       cc.director.runScene(new BesosScene());
     }
 
 });

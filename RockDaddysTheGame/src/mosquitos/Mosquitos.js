@@ -115,6 +115,7 @@ var MosquitosLayer = cc.Layer.extend({
             console.log("Perdido!!");
             cc.audioEngine.stopMusic();
             //cc.director.runScene(new GameOverScene());
+            this.getParent().addChild(new GameOverLayer());
         }
         for(var i = 0; i < this.formasEliminar.length; i++) {
                 var shape = this.formasEliminar[i];

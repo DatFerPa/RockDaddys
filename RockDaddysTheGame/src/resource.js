@@ -113,7 +113,8 @@ var res = {
     beso_png : "res/besos/beso.png",
     beso_wav : "res/besos/besito_de_fresa.wav",
     party_fiesta_wav : "res/besos/party_fiesta.wav",
-    game_over_reducido : "res/game_over_reducido.png"
+    game_over_reducido : "res/game_over_reducido.png",
+    latin_jazz : "res/latin_jazz.wav"
  };
 
 var g_resources = [];

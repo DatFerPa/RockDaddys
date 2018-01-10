@@ -99,6 +99,8 @@ var MenuSeleccionLayer = cc.Layer.extend({
 var MenuSeleccionScene = cc.Scene.extend({
     onEnter:function () {
         this._super();
+        cc.audioEngine.playMusic(res.latin_jazz, true);
+
         var layer = new MenuSeleccionLayer();
         this.addChild(layer);
     }

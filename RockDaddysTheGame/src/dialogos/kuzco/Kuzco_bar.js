@@ -92,7 +92,7 @@ var KuzcoBarLayer = cc.Layer.extend({
           var location = event.getLocation();
 
           if(instancia.perder){
-            cc.director.runScene(new MainMenuScene());
+            cc.director.runScene(new MenuSeleccionScene());
           }
           if(instancia.ganar){
             console.log("eeeeeeeeey");
@@ -198,6 +198,7 @@ var KuzcoBarLayer = cc.Layer.extend({
         });
         console.log("HAS GANAO, GUAPO");
         this.ganar = true;
+         cc.audioEngine.stopMusic();
         cc.director.runScene(new KuzcoSceneWin());
 
     }

@@ -114,7 +114,12 @@ var res = {
     beso_wav : "res/besos/besito_de_fresa.wav",
     party_fiesta_wav : "res/besos/party_fiesta.wav",
     game_over_reducido : "res/game_over_reducido.png",
-    latin_jazz : "res/latin_jazz.wav"
+    latin_jazz : "res/latin_jazz.wav",
+    sonido_bar_seleccion_wav : "res/bar_seleccion.wav",
+    sonido_click_wav : "res/click.wav",
+    sonido_calle_wav : "res/street.wav",
+    sonido_garaje_wav : "res/garage.wav",
+    sonido_palacio_wav : "res/palace.wav"
  };
 
 var g_resources = [];

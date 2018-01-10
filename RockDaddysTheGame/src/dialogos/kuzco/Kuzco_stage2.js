@@ -170,6 +170,10 @@ var KuzcoWinLayer = cc.Layer.extend({
 var KuzcoSceneWin = cc.Scene.extend({
     onEnter:function () {
         this._super();
+
+        cc.audioEngine.playMusic(res.sonido_garaje_wav, true);
+        cc.audioEngine.setMusicVolume(0.2);
+
         var layer = new KuzcoWinLayer();
         this.addChild(layer);
     }

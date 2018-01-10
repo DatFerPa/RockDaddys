@@ -170,6 +170,10 @@ var MickyWinLayer = cc.Layer.extend({
 var MickySceneWin = cc.Scene.extend({
     onEnter:function () {
         this._super();
+
+        cc.audioEngine.playMusic(res.sonido_calle_wav, true);
+                cc.audioEngine.setMusicVolume(0.2);
+            
         var layer = new MickyWinLayer();
         this.addChild(layer);
     }

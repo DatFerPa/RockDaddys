@@ -34,9 +34,6 @@ var BesosLayer = cc.Layer.extend({
 
         console.log("se ejecuta el minijuego de lanzar besos");
 
-        //depuracion
-        this.depuracion = new cc.PhysicsDebugNode(this.space);
-        this.addChild(this.depuracion, 10);
 
         //fondo
         this.spriteFondo = cc.Sprite.create(res.pista_disco_png);

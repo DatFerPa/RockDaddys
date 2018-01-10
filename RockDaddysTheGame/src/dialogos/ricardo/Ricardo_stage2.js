@@ -170,6 +170,10 @@ var RicardoWinLayer = cc.Layer.extend({
 var RicardoSceneWin = cc.Scene.extend({
     onEnter:function () {
         this._super();
+
+        cc.audioEngine.playMusic(res.sonido_palacio_wav, true);
+                cc.audioEngine.setMusicVolume(0.5);
+
         var layer = new RicardoWinLayer();
         this.addChild(layer);
     }

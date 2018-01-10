@@ -153,7 +153,7 @@
                 "options":[]
             },
             {
-                "personaje" : true,
+                "personaje" : false,
                 "estado" : 1,
                 "content":["Lo has hecho, lo has conseguido, no te has puesto nervioso, estabas muy decidido… [Sonrie] ¿Te puedo hacer una pregunta? ¿Yo soy guapo?"],
                 "options":[]
@@ -165,7 +165,7 @@
                 "options":[]
             },
             {
-                "personaje" : true,
+                "personaje" : false,
                 "estado" : 1,
                 "content":["Ven aquí bribón, vamos a aprovechar que estamos en mi habitación.  "],
                 "options":[]

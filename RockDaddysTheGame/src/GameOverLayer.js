@@ -16,6 +16,7 @@ var GameOverLayer = cc.LayerColor.extend({
         this.addChild(menu);
         return true;
     },gameOverCLick:function(){
+        cc.director.resume();
         cc.director.runScene(new MenuSeleccionScene());
     }
 });

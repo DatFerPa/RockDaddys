@@ -104,7 +104,7 @@
         "estado" : 1,
         "content" : ["Me gusta tu estilo, ¿Quieres que nos vayamos a un lugar más tranquilo?"],
         "options" : ["Si","No"],
-        "karma" : [100,-1000]
+        "karma" : [100,-10000]
       },{
         "personaje" : true,
         "estado" : 1,

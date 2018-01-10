@@ -54,8 +54,8 @@ var RecolectorMonedasLayer = cc.Layer.extend({
 
         //this.space.gravity = cp.v(0,0);
 
-        this.depuracion = new cc.PhysicsDebugNode(this.space);
-        this.addChild(this.depuracion,10);
+       // this.depuracion = new cc.PhysicsDebugNode(this.space);
+        //this.addChild(this.depuracion,10);
 
         this.recolector = new Cesta(this,cc.p(size.width/2 , size.height*0.1));
 
@@ -168,7 +168,6 @@ var RecolectorMonedasLayer = cc.Layer.extend({
         var capaControles = this.getParent().getChildByTag(idCapaPuntuacion);
 
         if(capaControles.monedas == 5){
-            cc.director.pause();
              cc.audioEngine.stopMusic();
               cc.director.runScene(new RicardoSceneWin());
 
@@ -225,7 +224,7 @@ var RecolectorMonedasLayer = cc.Layer.extend({
         var shapes = arbiter.getShapes();
         this.formasEliminar.push(shapes[1]);
 
-        cc.director.pause();
+        //cc.director.pause();
          cc.audioEngine.stopMusic();
         //cc.director.runScene(new GameOverLayer());
         this.getParent().addChild(new GameOverLayer());

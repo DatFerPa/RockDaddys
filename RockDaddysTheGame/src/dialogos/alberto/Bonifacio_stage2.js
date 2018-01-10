@@ -170,6 +170,8 @@ var BonifacioWinLayer = cc.Layer.extend({
 var BonifacioSceneWin = cc.Scene.extend({
     onEnter:function () {
         this._super();
+        cc.audioEngine.playMusic(res.sonido_calle_wav, true);
+        cc.audioEngine.setMusicVolume(0.5);
         var layer = new BonifacioWinLayer();
         this.addChild(layer);
     }
